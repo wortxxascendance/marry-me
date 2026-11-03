@@ -1,5 +1,18 @@
 [
  {
+  "n": "платье Антия",
+  "p": 52000,
+  "d": 46800,
+  "ph": [
+   "umw0r2w5tplj",
+   "umw0r2w6ore0",
+   "umw0r2w7crv6",
+   "umw0r2w7ztn4"
+  ],
+  "ds": "",
+  "sz": "42"
+ },
+ {
   "n": "платье Рейн",
   "p": 45000,
   "d": 40500,
@@ -30,7 +43,11 @@
   "d": 34200,
   "ph": [
    "umw0pnx2shvx",
-   "umw0pnx3kivx"
+   "umw0pnx3kivx",
+   "umw0qubdq8zq",
+   "umw0qubebhrb",
+   "umw0qubf8es2",
+   "umw0qubfsznu"
   ],
   "ds": "",
   "sz": "40/42"
@@ -361,7 +378,7 @@
    "umvuyrelstqs"
   ],
   "ds": "",
-  "sz": "40/42"
+  "sz": "42"
  },
  {
   "n": "платье VIP",
