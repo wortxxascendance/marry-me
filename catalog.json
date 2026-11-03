@@ -1,61 +1,32 @@
 [
  {
-  "n": "Платья Милисса",
-  "p": 45000,
-  "d": 40500,
+  "n": "платье Аврора",
+  "p": 43500,
+  "d": 39100,
   "ph": [
-   "umw0svj34adf"
-  ],
-  "ds": "",
-  "sz": "42/44/46"
- },
- {
-  "n": "Платье Леди",
-  "p": 41000,
-  "d": 36900,
-  "ph": [
-   "umw0snovwap0",
-   "umw0snowert3",
-   "umw0snoww7pz",
-   "umw0snoxbmpr"
-  ],
-  "ds": "",
-  "sz": "42/44"
- },
- {
-  "n": "Платье Мия",
-  "p": 50000,
-  "d": 45000,
-  "ph": [
-   "umw0sljlboqs",
-   "umw0sljlye8z"
+   "umw0sug30trs",
+   "umw0sug0b5np",
+   "umw0sug1ffk9",
+   "umw0sug27xi3",
+   "umw0sug3lv9v"
   ],
   "ds": "",
   "nw": 1,
   "sz": "42/44"
  },
  {
-  "n": "Платье Милла",
-  "p": 62000,
-  "d": 55800,
+  "n": "платье Эйла",
+  "p": 52000,
+  "d": 46800,
   "ph": [
-   "umw0sjai82ms",
-   "umw0sjaixnjq"
+   "umw0shapgun5",
+   "umw0shaqcsgd",
+   "umw0shar0hax",
+   "umw0sharmqqt",
+   "umw0shas8kkv"
   ],
   "ds": "",
-  "nw": 1,
-  "sz": "42/44/46"
- },
- {
-  "n": "Платье Голден",
-  "p": 47000,
-  "d": 42300,
-  "ph": [
-   "umw0si4oaybb",
-   "umw0si4p0cy9"
-  ],
-  "ds": "",
-  "sz": "Размер 44/46"
+  "sz": "42"
  },
  {
   "n": "платье Антия",
