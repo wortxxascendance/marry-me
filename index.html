@@ -272,6 +272,7 @@ footer .brand{color:#fff}
 }
 @media (prefers-reduced-motion:reduce){.sheet-panel,.sheet-bg{transition:none}.okmark,.okmark svg{animation:none;stroke-dashoffset:0}}
 </style>
+<style>.cab-btn{display:none!important}</style>
 </head>
 <body>
 <header><div class="wrap">
@@ -367,7 +368,7 @@ footer .brand{color:#fff}
   <h2 class="reveal">Частые <em>вопросы</em></h2>
   <div class="faq" data-stagger>
     <details open><summary>Как работает скидка 10%?</summary><p>Если вы покупаете платье в день первой примерки, цена сразу снижается на 10%. В каталоге указаны обе цены.</p></details>
-    <details><summary>Нужно ли записываться на примерку?</summary><p>Да, лучше записаться — так мы подготовим платья и уделим вам всё время. Записаться можно на сайте, в WhatsApp или по телефону.</p></details>
+    <details><summary>Нужно ли записываться на примерку?</summary><p>Да, лучше записаться — так мы подготовим платья и уделим вам всё время. Записаться можно онлайн: кнопка «Записаться на примерку» открывает запись DIKIDI со свободным временем. Вопросы по размерам — в WhatsApp или по телефону.</p></details>
     <details><summary>Есть ли большие размеры?</summary><p>Да, в салоне есть отдельная коллекция SIZE+. Наличие нужного размера уточните при записи.</p></details>
     <details><summary>Платье из каталога точно в наличии?</summary><p>Коллекция обновляется, поэтому размеры уточняйте при записи — напишите название платья, и мы ответим.</p></details>
     <details><summary>Где вы находитесь?</summary><p>Нижний Новгород, ул. Ванеева, 21. Работаем ежедневно с 11:00 до 20:00.</p></details>
@@ -730,6 +731,14 @@ footer .brand{color:#fff}
   let x0 = null; lb.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; }, { passive: true });
   lb.addEventListener('touchend', e => { if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) show(cur + (dx < 0 ? 1 : -1)); x0 = null; });
 })();
+</script>
+<script>
+// запись на примерку — только онлайн-запись салона в DIKIDI (17.11.2026); кабинет записей на сайте убран
+document.addEventListener('click', function (e) {
+  var t = e.target.closest && e.target.closest('[data-book],[data-cab]'); if (!t) return;
+  e.preventDefault(); e.stopImmediatePropagation();
+  window.open('https://dikidi.net/520991', '_blank', 'noopener');
+}, true);
 </script>
 </body>
 </html>
