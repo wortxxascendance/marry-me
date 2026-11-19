@@ -1,15 +1,16 @@
 [
  {
-  "n": "Платье Жанет",
-  "p": 79900,
-  "d": 71900,
+  "n": "платье Виалетта",
+  "p": 25000,
+  "d": 22500,
   "ph": [
-   "umwnetwokcqw",
-   "umwnetwp5v0k"
+   "umwneq4c6dot",
+   "umwneq4d7cih",
+   "umwneq4dv0ev",
+   "umwneq4eiife"
   ],
   "ds": "",
-  "nw": 1,
-  "sz": "40/42/44"
+  "sz": "44"
  },
  {
   "n": "платье Иман",
@@ -202,6 +203,19 @@
    "umw3i0yhm8j1",
    "umw3i18qzapu",
    "umw3i1cc9qvl"
+  ],
+  "ds": "",
+  "nw": 1,
+  "sz": "42/44"
+ },
+ {
+  "n": "Платье Флора",
+  "p": 51000,
+  "d": 45900,
+  "ph": [
+   "umw3huxo2iyz",
+   "umw3hv26ce8i",
+   "umw3hvbvvsrw"
   ],
   "ds": "",
   "nw": 1,
